@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 1em;
+        }
+
+        span {
+            font-style: italic;
+            color: blue;
+        }
+
+        section+p {
+            font-style: italic;
+        }
+
+        input [type="search"] {
+            color: brown;
+        }
+
+        section button:hover {
+            color: aliceblue;
+            background-color: green;
+        }
+
+        .dv:hover {
+            color: aliceblue;
+            background-color: brown;
+        }
+
+        section:nth-last-of-type(2n) {
+            background-color: aquamarine;
+        }
+
+        h2+p::first-letter {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Kumpulan Jokes Bapak-bapak</h1>
+        <p>Berikut adalah kumpulan jokes bapak-bapak yang gak lucu:</p>
+        <hr>
+    </section>
+    <input type="search" name="search" id="search" placeholder="search"> <button>Search</button>
+    <section>
+        <h2>Bapak Kocak</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, ad ipisicing elit. Tempora nemo commodi doloremque illo? Impedit
+            nesciunt sequi nostrum quaerat nobis cumque ducimus quisquam aut, tempora necessitatibus porro quos, soluta
+            deserunt? Vel.
+        </p>
+        <p>Published by: <span>John Due</span></p>
+        <button>Upvote +</button>
+        <button class="dv">Downvote -</button>
+    </section>
+    <hr>
+    <section>
+        <h2>Bapak Kocak</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo commodi doloremque illo? Impedit
+            nesciunt sequi nostrum quaerat nobis cumque ducimus quisquam aut, tempora necessitatibus porro quos, soluta
+            deserunt? Vel.</p>
+        <p>Published by: <span>John Due</span></p>
+        <button>Upvote +</button>
+        <button class="dv">Downvote -</button>
+    </section>
+    <hr>
+    <section>
+        <h2>Bapak Kocak</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo commodi doloremque illo? Impedit
+            nesciunt sequi nostrum quaerat nobis cumque ducimus quisquam aut, tempora necessitatibus porro quos, soluta
+            deserunt? Vel.</p>
+        <button>Upvote +</button>
+        <p>Published by: <span>John Due</span></p>
+        <button class="dv">Downvote -</button>
+    </section>
+    <hr>
+    <section>
+        <h2>Bapak Kocak</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nemo commodi doloremque illo? Impedit
+            nesciunt sequi nostrum quaerat nobis cumque ducimus quisquam aut, tempora necessitatibus porro quos, soluta
+            deserunt? Vel.</p>
+        <p>Published by: <span>John Due</span></p>
+        <button>Upvote +</button>
+        <button class="dv">Downvote -</button>
+    </section>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, placeat itaque. Minima molestiae eum sit.
+        Incidunt, esse. Cum assumenda dolore accusamus voluptates quam aspernatur, perferendis consequuntur eaque
+        officia unde. Dicta.</p>
+</body>
+
+</html>
