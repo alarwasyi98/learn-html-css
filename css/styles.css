@@ -1,14 +1,51 @@
+/* Global Selector */
 body {
     font-family: sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-h1,
-p {
-    font-family: sans-serif;
-    margin: 1em auto;
-    text-align: justify;
+body a {
+    color: brown;
 }
 
+body a:hover {
+    color: blueviolet;
+}
+
+/* start navigation bar styling */
+.navbar ul {
+    list-style-type: none;
+    background-color: aliceblue;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+    color: brown;
+}
+
+.navbar a:active {
+    font-weight: bold;
+}
+
+.navbar li {
+    float: left;
+}
+
+/* End of Navigation Bar Styling */
+
+/* Table Styling */
 table {
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
@@ -34,9 +71,9 @@ td {
     padding: 8px 10px;
 }
 
-td:last-of-type {
+/* td:last-of-type {
     text-align: center;
-}
+} */
 
 tbody>tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
@@ -49,3 +86,5 @@ tfoot th {
 tfoot td {
     font-weight: bold;
 }
+
+/* End of Table Styling */

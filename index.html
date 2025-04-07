@@ -6,49 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>Document</title>
+    <title>Learn HTML</title>
 </head>
 
 <body>
+    <!-- start navigation bar -->
     <header>
-        <div class="logo">Belajar HTML Codepolitan</div>
-        <div class="navigation">
+        <!-- <div class="logo">Belajar HTML Codepolitan</div> -->
+        <div class="navbar">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="index.html">Learn HTML</a></li>
+                    <li><a href="css.html">Learn CSS</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <!-- Section Satu -->
+    <!-- end of navigation bar -->
     <section>
         <article>
-            <h1>HTML <sup>&copy;</sup></h1>
+            <h1 style="text-align: center;">Front-End Developer Courses</h1>
+            <h2>HTML Under The Hood</h2>
             <p><strong>The HyperText Markup Language</strong> or HTML is <a href="#">the standard markup language</a>
                 for
                 documents designed to be displayed in a web browser. It defines the meaning and structure of web
                 content. It
                 is often assisted by technologies. such as Cascading Style Sheets (CSS) and scripting languages such as
                 JavaScript.</p>
-            <hr>
-            <p><a href="https://en.wikipedia.org/wiki/Web_browser">Web browsers</a> receive HTML documents from a web
-                server
-                or from local storage and render the documents into multimedia web pages <sup><a
-                        href="google.com">[1]</a></sup>. HTML describes the structure of a
+            <p><a href="https://en.wikipedia.org/wiki/Web_browser" target="_blank">Web browsers</a> receive HTML
+                documents from a web
+                server <!--sup as reference note-->
+                or from local storage and render the documents into multimedia web pages <sup><a href="google.com"
+                        target="_blank">[1]</a></sup>. HTML describes the structure of a
                 web page semantically and originally included cues for its appearance.</p>
+            <h2>Cascading Stylesheets</h2>
+            <p>CSS is a programming syntax language that used for styling HTML appearance in browsers' Front-end. To
+                connect the CSS File from another directory or another source, you have to connect it from head of HTML
+                file with <code><link></code> tag. For
+                example, I have another file named <code>styles.css</code>:</p>
+            <code>
+                body {<br>
+                    font-family: sans-serif;<br>
+                    margin-left: 20px;<br>
+                    margin-right: 20px;<br>
+                }
+            </code>
         </article>
     </section>
-
-    <!-- section Dua -->
     <section>
-        <h1>HTML Version Timeline</h1>
-        <p><b>HTML5&trade;</b></p>
+        <h2>HTML Version Timeline &#xAE;</h2>
         <p><b>November 24, 1995</b></p>
+        <!-- unordered list -->
         <ol>
             <li>HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:</li>
+            <!-- nested list -->
             <ul>
                 <li>November 25, 1995: RFC 1867 <em>(form-based file upload)</em></li>
                 <li>May 1996: RFC 1942 (tables)</li>
@@ -56,51 +67,71 @@
                 <li>January 1997: RFC 2070 (internationalization)</li>
             </ul>
         </ol>
-    </section>
-    <!-- section tiga  -->
-    <section>
         <table>
-            <tr>
-                <td>&nbsp;</td>
-                <td>K nocky</td>
-                <td>Flor</td>
-                <td>Ella</td>
-                <td>Juan</td>
-            </tr>
-            <tr>
-                <td>Breed</td>
-                <td>Jack Russell</td>
-                <td>Poodle</td>
-                <td>Streetdog</td>
-                <td>Cocker Spaniel</td>
-            </tr>
-            <tr>
-                <td>Age</td>
-                <td>16</td>
-                <td>9</td>
-                <td>10</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Owner</td>
-                <td>Mother-in-law</td>
-                <td>Me</td>
-                <td>Me</td>
-                <td>Sister-in-law</td>
-            </tr>
-            <tr>
-                <td>Eating Habits</td>
-                <td>Eats everyone's leftovers</td>
-                <td>Nibbles at food</td>
-                <td>Hearty eater</td>
-                <td>Will eat till he explodes</td>
-            </tr>
+            <caption>
+                This is a table that generated and created using HTML and CSS only, no brainer, no pai, no gain. Let's
+                tr something new right here!
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Breed</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Owner</th>
+                    <th scope="col">Eating Habits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Knocky</td>
+                    <td>18</td>
+                    <td>Me</td>
+                    <td>Eats everyone's leftovers</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Knocky</td>
+                    <td>18</td>
+                    <td>Me</td>
+                    <td>Eats everyone's leftovers</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Knocky</td>
+                    <td>18</td>
+                    <td>Me</td>
+                    <td>Eats everyone's leftovers</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Knocky</td>
+                    <td>18</td>
+                    <td>Me</td>
+                    <td>Eats everyone's leftovers</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Knocky</td>
+                    <td>18</td>
+                    <td>Me</td>
+                    <td>Eats everyone's leftovers</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4">Total</th>
+                    <td>12345</td>
+                </tr>
+            </tfoot>
         </table>
     </section>
-    <legend>
-        <h1>Peminat</h1>
-    </legend>
+    <!-- end of section -->
+
     <section>
+        <legend>
+            <h3>Example Table HTML</h3>
+        </legend>
         <article>
             <table>
                 <caption>
@@ -145,50 +176,5 @@
 
         </article>
     </section>
-    <section>
-        <article>
-            <h1>Belajar Dasar CSS</h1>
-            <hr>
-            <p>
-                Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga
-                akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemrograman.
-            </p>
-            <p>
-                Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur beberapa
-                style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk dapat digunakan
-                bersama-sama dalam beberapa berkas (file).[1] Pada umumnya CSS dipakai untuk memformat tampilan halaman
-                web yang dibuat dengan bahasa HTML dan XHTML.[1]
-                CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna
-                border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan,
-                atas, bawah, dan parameter lainnya.[1]
-            </p>
-            <p>
-                CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen.[2] Dengan adanya CSS
-                memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.[2]
-            </p>
-            <h2>Sejarah CSS</h2>
-            <hr>
-            <p>
-                Nama CSS didapat dari fakta bahwa setiap deklarasi style yang berbeda dapat diletakkan secara berurutan,
-                yang kemudian membentuk hubungan ayah-anak (parent-child) pada setiap style.[3] CSS sendiri merupakan
-            </p>
-            <p>
-                sebuah teknologi internet yang direkomendasikan oleh World Wide Web Consortium atau W3C pada tahun
-                1996.[2] Setelah CSS distandarisasikan, Internet Explorer dan Netscape melepas browser terbaru mereka
-                yang telah sesuai atau paling tidak hampir mendekati dengan standar CSS.[3]
-            </p>
-            <h3>Versi CSS</h3>
-            <hr>
-            <p>
-                Untuk saat ini terdapat tiga versi CSS, yaitu CSS1, CSS2, dan CSS3. CSS1 dikembangkan berpusat pada
-                pemformatan dokumen HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa
-                ditampilkan di printer, sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal
-                dalam desain website. CSS3 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada
-                tabel /table layout dan media tipe untuk printer. Kehadiran versi CSS yang ketiga diharapkan lebih baik
-                dari versi pertama dan kedua.
-            </p>
-        </article>
-    </section>
-</body>
 
 </html>
