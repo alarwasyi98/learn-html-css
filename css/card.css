@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.card {
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 220px;
+    height: 120px;
+}
+
+.content {
+    text-align: left;
+    align-content: center;
+    padding: 10px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: brown;
+}
