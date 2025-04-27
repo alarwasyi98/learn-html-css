@@ -3,30 +3,190 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Cards</title>
     <link rel="stylesheet" href="/css/flexbox.css">
-    <title>Flexbox</title>
 </head>
 
 <body>
     <div class="container">
-        <h1 class="title">This is Title</h1>
-        <div class="item item1">
-            <h3>Price Tag</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-            <button>Hate Me</button>
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="price">$120/hr</span>
+                <span class="bookmark">🔖</span>
+            </div>
+            <h2>Senior UI Developer</h2>
+            <div class="card-footer">
+                <div class="company">
+                    <span>🏀</span>
+                    <p>Senior UI Developer</p>
+                </div>
+                <button class="view-button">Apply</button>
+            </div>
         </div>
-        <div class="item item2">
-            <h3>Price Tag</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-            <button>Hate Me</button>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="price">$150/hr</span>
+                <span class="bookmark">🔖</span>
+            </div>
+            <h2>Senior Backend Engineer</h2>
+            <div class="card-footer">
+                <div class="company">
+                    <span>🔵</span>
+                    <p>Senior Backend Engineer</p>
+                </div>
+                <button class="view-button">Apply</button>
+            </div>
         </div>
-        <div class="item item3">
-            <h3>Price Tag</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
-            <button>Hate Me</button>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="price">$125-145/hr</span>
+                <span class="bookmark">🔖</span>
+            </div>
+            <h2>Azure Data Engineer</h2>
+            <div class="card-footer">
+                <div class="company">
+                    <span>🏡</span>
+                    <p>Azure Data Engineer</p>
+                </div>
+                <button class="view-button">Apply</button>
+            </div>
         </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="price">$125-145/hr</span>
+                <span class="bookmark">🔖</span>
+            </div>
+            <h2>Azure Data Engineer</h2>
+            <div class="card-footer">
+                <div class="company">
+                    <span>🏡</span>
+                    <p>Azure Data Engineer</p>
+                </div>
+                <button class="view-button">Apply</button>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="price">$150/hr</span>
+                <span class="bookmark">🔖</span>
+            </div>
+            <h2>Senior Backend Engineer</h2>
+            <div class="card-footer">
+                <div class="company">
+                    <span>🔵</span>
+                    <p>Senior Backend Engineer</p>
+                </div>
+                <button class="view-button">Apply</button>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card">
+            <div class="card-header">
+                <span class="price">$120/hr</span>
+                <span class="bookmark">🔖</span>
+            </div>
+            <h2>Senior UI Developer</h2>
+            <div class="card-footer">
+                <div class="company">
+                    <span>🏀</span>
+                    <p>Senior UI Developer</p>
+                </div>
+                <button class="view-button">Apply</button>
+            </div>
+        </div>
+
     </div>
+    <textarea name="pesan" id="pesan" cols="100" rows="10" placeholder="Tulis pesan Anda"></textarea>
+    <table class="student-table">
+        <thead>
+            <tr>
+                <th>Head 1</th>
+                <th>Head 2</th>
+                <th>Head 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Ini</th>
+                <td>Ini Data</td>
+                <td>Ini Data</td>
+            </tr>
+            <tr>
+                <th>Ini</th>
+                <td>Ini Data</td>
+                <td>Ini Data</td>
+            </tr>
+            <tr>
+                <th>Ini</th>
+                <td>Ini Data</td>
+                <td>Ini Data</td>
+            </tr>
+            <tr>
+                <th>Ini</th>
+                <td>Ini Data</td>
+                <td>Ini Data</td>
+            </tr>
+            <tr>
+                <th>Ini</th>
+                <td>Ini Data</td>
+                <td>Ini Data</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <td>Ini total</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- Start Form -->
+    <form action="#" method="get" class="daftar">
+        <h2>Formulir Pendaftaran</h2>
+        <fieldset>
+            <legend>Data Diri</legend>
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="nama" placeholder="i.e John Due" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="email anda">
+        </fieldset>
+        <fieldset>
+            <legend>Data Kelas</legend>
+            <label for="kelas">Kelas</label>
+            <select name="kelas" id="kelas">
+                <option value="">Pilih Kelas</option>
+                <option value="7">7</option>
+                <option value="7">8</option>
+                <option value="7">9</option>
+            </select>
+
+            <label for="radio" class="radio-option">
+                <input type="radio" name="kelas" id="pilih-kelas" checked>7
+            </label>
+            <label for="radio" class="radio-option">
+                <input type="radio" name="kelas" id="pilih-kelas">8
+            </label>
+            <label for="radio" class="radio-option">
+                <input type="radio" name="kelas" id="pilih-kelas">9
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pesan Singkat</legend>
+            <label for="pesan">Pesan</label>
+            <textarea name="pesan" id="pesan"></textarea>
+        </fieldset>
+        <button type="submit">Kirim Formulir</button>
+    </form>
 </body>
 
 </html>
