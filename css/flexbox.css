@@ -175,10 +175,11 @@ textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background: #ffffff; */
     display: flex;
-    margin: 0;
+    margin: 70px 0 20px 0;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 0%;
 }
 
 .profile-card {
@@ -206,12 +207,15 @@ textarea {
 
 .verified-badge {
     /* margin-left: 6px; */
+    /* width: 22px; */
+    /* height: 22px; */
     vertical-align: middle;
 
 }
 
 .username {
     margin: 0;
+    padding: 0%;
     color: #888;
     /* margin-bottom: 1rem; */
 }
@@ -221,6 +225,8 @@ textarea {
     font-weight: 400;
     /* margin: 0.5rem 0 1rem; */
     color: #888;
+    padding-top: 0;
+    padding-bottom: 10px;
 }
 
 .profile-badges {
@@ -236,7 +242,7 @@ textarea {
     color: #555;
     padding: 0.3rem 0.6rem;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 500;
     margin-top: 1rem;
 }
@@ -254,6 +260,7 @@ textarea {
 .badge:last-of-type {
     background-color: #f1f580;
     color: #a49b14;
+    cursor: pointer;
 }
 
 .action {
@@ -327,4 +334,54 @@ h3 {
     color: #444;
     margin: 0;
     padding: 0;
+}
+
+.social-item h4 {
+    margin: 5px 0px;
+    padding: 2px;
+}
+
+.social-item a {
+    margin-left: 4px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.social-item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* align-items: center; */
+    /* margin: 5% 0; */
+    padding: 16px 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.social-item:last-child {
+    border-bottom: none;
+}
+
+.social-icon {
+    margin: 5px;
+    padding: 5px
+}
+
+.interest-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: #ffffff; */
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh */
+}
+
+.interest-card {
+    padding: 2rem;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
 }
