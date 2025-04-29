@@ -9,9 +9,64 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #e2e5ec;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 1rem 0 0.5rem 0;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+section a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 500;
+}
+
+code {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+button {
+    background-color: oklch(54.6% 0.245 262.881);
+    color: white;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: oklch(42.4% 0.199 265.638);
+}
+
+input[type="email"] {
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 5px;
+
+    border: 1px solid #888;
+    border-radius: 5px;
 }
 
 /* start navigation bar styling */
+
+.navbar {
+    background-color: white;
+    border-radius: 10px;
+}
+
 .navbar ul {
     list-style-type: none;
     /* background-color: aliceblue; */
@@ -44,3 +99,70 @@ body {
 }
 
 /* End of Navigation Bar Styling */
+
+/* Start Table Styling */
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+
+thead,
+tfoot {
+    background-color: rgb(218 218 218);
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+/* td:last-of-type {
+    text-align: center;
+} */
+
+tbody>tr:nth-of-type(even) {
+    background-color: rgb(218 218 218);
+}
+
+tfoot th {
+    text-align: center;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+/* End of Table Styling */
+
+/* Start Table Styling */
+
+.newsletter fieldset {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-sizing: border-box
+}
+
+.newsletter legend {
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #ccc;
+    height: 9vw;
+    text-align: center;
+    font-weight: 500;
+    padding: 25px;
+}

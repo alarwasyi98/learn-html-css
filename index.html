@@ -52,8 +52,7 @@
                 <p>CSS is a programming syntax language that used for styling HTML appearance in browsers' Front-end. To
                     connect the CSS File from another directory or another source, you have to connect it from head of
                     HTML
-                    file with <code><link></code> tag. For
-                    example, I have another file named <code>styles.css</code>:</p>
+                    file with link tag. For example, I have another file named <code>styles.css</code>:</p>
                 <code>
                 body {<br>
                     font-family: sans-serif;<br>
@@ -189,27 +188,21 @@
             </article>
         </section>
         <section>
-            <h3>Subscribe to Our Newsletter</h3>
-            <form action="">
-                <label for="email">Email address:</label>
-                <input type="email" id="email" name="email" />
-                <button type="reset">Reset form</button>
-                <button type="submit">Submit form</button>
-            </form><br>
-            <form action="#" method="get">
-                <h3>Register</h3>
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" placeholder="Your email"><br>
-                <label for="password">Strong Password:</label>
-                <input type="password" name="password" id="password" placeholder="Strong password">
-                <hr>
-                <input type="radio" name="radio" id="radio">
-                <label for="radio">I Agree with privacy Policy</label>
-                <br>
-                <button type="submit">Register</button>
+            <!-- <h3>Subscribe to Our Newsletter</h3> -->
+            <form class="newsletter">
+                <fieldset>
+                    <legend>Subscribe to Our Newsletter</legend>
+                    <label for="email">Email address:</label>
+                    <input type="email" id="email" name="email" placeholder="johndoe@email.com" /><br>
+                    <button type="reset">Reset form</button>
+                    <button type="submit">Submit form</button>
+                </fieldset>
             </form>
         </section>
     </main>
+    <footer>
+        <div class="footer">This is Footer</div>
+    </footer>
 </body>
 
 </html>
