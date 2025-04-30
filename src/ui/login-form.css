@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f5f9;
+}
+
+.container {
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 15px;
+}
+
+.banner {
+    flex: 1;
+    background-image: linear-gradient(to left bottom, #4f46e5, #6d2194, #5a0d53);
+    /* background-color: #4f46e5; */
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+    border-radius: 10px;
+    /* align-items: center; */
+    /* background: url("https://unsplash.com/photos/train-travels-through-a-citys-high-rise-buildings-4b0WjAX1h64") no-repeat center/cover; */
+    display: none;
+}
+
+.banner h1 {
+    color: #fff;
+    /* text-align: center; */
+    /* background-color: #111827; */
+    padding: 0 20px;
+    margin: 0 10px;
+}
+
+.banner img {
+    display: inline-block;
+    height: 20px;
+
+    margin: 0 20px 0 10px;
+}
+
+.banner p {
+    font-weight: 100;
+    color: #fff;
+    font-size: small;
+    /* text-align: center; */
+    /* background-color: #111827; */
+    padding: 20px;
+    margin: 0 20px 0 10px;
+}
+
+.form {
+    flex: 1;
+    padding: 50px 40px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #111827;
+}
+
+.form-icon iconify-icon {
+    height: 20px;
+    margin-bottom: 0.75rem;
+    /* width: 25px; */
+    display: inline-block;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #374151;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.password-reset {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.password-reset a {
+    color: #4f46e5;
+    text-decoration: transparent;
+}
+
+.password-reset a:hover {
+    color: #4f46e5;
+    text-decoration: underline;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background: #6366f1;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background: #4f46e5;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #d1d5db;
+    top: 50%;
+    width: 40%;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-login button {
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.social-login button:hover {
+    background: #f3f4f6;
+}
+
+.social-login img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 768px) {
+    .banner {
+        display: block;
+    }
+}
