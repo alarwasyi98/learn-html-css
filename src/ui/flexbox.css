@@ -79,7 +79,8 @@ textarea {
 .price {
     font-size: smaller;
     font-weight: 600;
-    background-color: #d6d5d5;
+    color: rgb(49, 159, 32);
+    background-color: #d7ffea;
     padding: 5px 20px;
     border-radius: 5px;
 }
