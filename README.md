@@ -25,7 +25,7 @@ I would like to thank the following resources that have guided and inspired my l
 
 ## 🚀 Starring [Roadmap.sh](https://roadmap.sh)
 
-[![roadmap.sh](https://roadmap.sh/card/wide/64d2014f958c39fd1f8043bc?variant=dark)](https://roadmap.sh)
+[![roadmap.sh](https://roadmap.sh/card/tall/64d2014f958c39fd1f8043bc?variant=dark)](https://roadmap.sh)
 
 This repository is a part of [roadmap.sh](https://roadmap.sh) solutions project including my side-project and learning process.
 
