@@ -21,7 +21,17 @@ I would like to thank the following resources that have guided and inspired my l
 
 ## 📁 Project List
 
-- [Single Page CV](/src/frontend/01-single-page-cv/)
+- [Single Page CV](https://roadmap.sh/projects/single-page-cv)
+
+<!-- inline html -->
+
+<p align="left">
+  <a href='/src/frontend/01-single-page-cv/README.md'>
+    <img width="48%" src="./public/images/single-page-cv.png" alt="single page cv" />
+  </a>
+</p>
+
+<!-- inline html -->
 
 ## 🚀 Starring [Roadmap.sh](https://roadmap.sh)
 
