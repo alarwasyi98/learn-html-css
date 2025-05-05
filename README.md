@@ -19,29 +19,16 @@ I would like to thank the following resources that have guided and inspired my l
 - [CodePen](https://codepen.io) and [GitHub](https://github.com/) – for code samples, real-world inspiration, and community-driven projects  
 - [ChatGPT](https://chatgpt.com) – for on-the-go assistance, explanations, and practice guidance throughout the journey
 
-## 📁 Project Structure
+## 📁 Project List
 
-```text
-- public/
-    └── images/ # Static assets like icons, logos, screenshots
-- src/
-    ├── pages/ # HTML pages for layouts, forms, experiments
-    ├── script/ # JavaScript files for interactivity and logic
-    └── ui/ # Reusable UI components and style blocks
-```
+- [Single Page CV](/src/frontend/01-single-page-cv/)
 
-This structure is designed to separate logic, layout, and static assets, and is inspired by modern front-end conventions.
-
-## 🚀 Let's Keep Learning
-
-This repository is open for anyone who wants to learn, fork, or contribute.  
-Feel free to explore, experiment, and improve!
-
-> *"Code is not just written, it's crafted."*
+## 🚀 Starring [Roadmap.sh](https://roadmap.sh)
 
 [![roadmap.sh](https://roadmap.sh/card/wide/64d2014f958c39fd1f8043bc?variant=dark)](https://roadmap.sh)
 
-## 📝 License
+This repository is a part of [roadmap.sh](https://roadmap.sh) solutions project including my side-project and learning process.
 
-CC0 - Public Domain License.  
-Please credit when necessary, and keep the spirit of open learning alive!
+Feel free to explore, experiment, and improve!
+
+> *"Code is not just written, it's crafted."*
