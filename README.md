@@ -21,13 +21,15 @@ I would like to thank the following resources that have guided and inspired my l
 
 ## 📁 Project List
 
-- [Single Page CV](https://roadmap.sh/projects/single-page-cv)
+[Single Page CV](https://roadmap.sh/projects/single-page-cv) | [Basic HTML Website](https://roadmap.sh/projects/basic-html-website) | [Personal Portfolio](https://roadmap.sh/projects/portfolio-website) | [Changelog Component](https://roadmap.sh/projects/changelog-component) | [Testimonial Card](https://roadmap.sh/projects/testimonial-cards) | [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)
 
 <!-- inline html -->
-
 <p align="left">
   <a href='/src/frontend/01-single-page-cv/README.md'>
     <img width="48%" src="./public/images/single-page-cv.png" alt="single page cv" />
+  </a>
+  <a href='/src/frontend/02-basic-html-website/README.md'>
+    <img width="48%" src="./public/images/simple-website.png" alt="single page cv" />
   </a>
 </p>
 
