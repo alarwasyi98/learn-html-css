@@ -1,0 +1,129 @@
+/* Reset CSS */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for Header Container (logo & nav) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: large;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1px;
+    /* border: 2px solid black; */
+}
+
+.section-title {
+    line-height: 1.5;
+}
+
+.project,
+.work,
+.education {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.project-item {
+    /* border: 1px solid black; */
+    padding: inherit;
+    cursor: pointer;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 30px; */
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.review-item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.article-container {
+    padding: 5px;
+}
+
+.article-container h2 {
+    margin-top: 20px;
+
+}
+
+.profile-name,
+.username {
+    text-align: center;
+}
+
+.username {
+    color: gray;
+    cursor: pointer;
+}
+
+.profile-description {
+    text-align: center;
+}
+
+footer {
+    height: 10vh;
+}
