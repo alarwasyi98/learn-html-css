@@ -1,0 +1,120 @@
+    :root {
+        --bg-light: #f8f9fa;
+        --bg-dark: #1e1e1e;
+        --text-light: #212529;
+        --text-dark: #f1f1f1;
+        --primary: #7f5af0;
+        --accent: #2cb67d;
+    }
+
+    body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background-color: var(--bg-light);
+        color: var(--text-light);
+        transition: all 0.3s;
+    }
+
+    body.dark {
+        background-color: var(--bg-dark);
+        color: var(--text-dark);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        background: transparent;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .logo {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .toggle-btn,
+    .hamburger {
+        cursor: pointer;
+        border: none;
+        background: none;
+        font-size: 1.2rem;
+        color: inherit;
+    }
+
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .hamburger span {
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+    }
+
+    main {
+        padding: 2rem;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    section {
+        margin: 3rem 0;
+    }
+
+    h1,
+    h2 {
+        color: var(--primary);
+    }
+
+    footer {
+        text-align: center;
+        padding: 2rem;
+        font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+        .nav-links {
+            display: none;
+            flex-direction: column;
+            background: var(--bg-light);
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+
+        body.dark .nav-links {
+            background: var(--bg-dark);
+        }
+
+        .nav-links.show {
+            display: flex;
+        }
+
+        .hamburger {
+            display: flex;
+        }
+    }
