@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 30px;
+}
+
+.callout {
+    border-radius: 10px;
+}
+
+.callout-info {
+    display: flex;
+    gap: 15px;
+    line-height: 1.5;
+    background-color: oklch(88.2% 0.059 254.128);
+    color: oklch(42.4% 0.199 265.638);
+    border: 1px solid oklch(42.4% 0.199 265.638);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.callout-succes {
+    display: flex;
+    gap: 15px;
+    line-height: 1.5;
+    background-color: oklch(92.5% 0.084 155.995);
+    color: oklch(44.8% 0.119 151.328);
+    border: 1px solid oklch(44.8% 0.119 151.328);
+    margin: 20px;
+    padding: 20px;
+}
+
+.callout-danger {
+    display: flex;
+    gap: 15px;
+    line-height: 1.5;
+    background-color: oklch(88.5% 0.062 18.334);
+    color: oklch(44.4% 0.177 26.899);
+    border: 1px solid oklch(44.4% 0.177 26.899);
+    margin: 20px;
+    padding: 20px;
+}
+
+.callout-tips {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* gap: 15px; */
+    /* line-height: 1.5; */
+    /* background-color: oklch(88.5% 0.062 18.334); */
+    /* color: oklch(44.4% 0.177 26.899); */
+    border: 1px solid rgb(104, 5, 104);
+    margin: 20px;
+    /* padding: 20px; */
+    /* max-width: 500px; */
+}
+
+.callout-header {
+    display: flex;
+    gap: 15px;
+    background-color: rgb(104, 5, 104);
+    color: rgb(247, 197, 247);
+    /* margin: 20px; */
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.callout-body {
+    padding: 20px;
+    background-color: rgb(247, 197, 247);
+    border-radius: 0 0 10px 10px;
+}
+
+.callout-tips button {
+    padding: 10px 25px;
+    margin-top: 10px;
+    color: rgb(247, 197, 247);
+    background-color: rgb(104, 5, 104);
+    border: transparent;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.callout-tips button:hover {
+    background-color: rgb(185, 24, 185);
+}
